@@ -18,6 +18,7 @@
   background-color: darkslategray;
   display: flex;
   justify-content: space-between;
+  padding: 20px 20px;
   border-radius: 10px;
 }
 
@@ -52,7 +53,12 @@ form #display input {
 form input.equals {
   width: 125px;
 }
+form input.equals {
+    width: 125px;
+  }
+  
 
-form input.operator , form input.equals{
-    color: orange;
+form input.operator,
+form input.equals {
+  color: orange;
 }
